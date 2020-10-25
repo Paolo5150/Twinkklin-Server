@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Paolo5150/Twinkklin-Server/issues"
   },
-  "homepage": "https://github.com/Paolo5150/Twinkklin-Server#readme"
+  "homepage": "https://github.com/Paolo5150/Twinkklin-Server#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }

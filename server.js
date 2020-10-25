@@ -47,6 +47,18 @@ app.get('/load_collection', (req, res) => {
   .sort_by('public_id','desc')
   .max_results(30)
   .execute().then(result=>{
-    res.send(result)});
+     
+
+      var data = []
+        for(var i=0; i< result.resources.length; i++)
+        {
+            var imageData = {
+                id: result.resources[i].folder.substring(result.resources[i].folder.lastIndexOf('/') + 1, result.resources[i].folder.length),
+                url: result.resources[i].url
+            }
+            data.push(imageData)
+        }
+    res.send(data)
+});
   
 });

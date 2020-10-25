@@ -1,0 +1,22 @@
+{
+  "name": "twinkllin-server",
+  "version": "1.0.0",
+  "description": "Twinkllin server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paolo5150/Twinkklin-Server.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Paolo Ferri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paolo5150/Twinkklin-Server/issues"
+  },
+  "homepage": "https://github.com/Paolo5150/Twinkklin-Server#readme"
+}
